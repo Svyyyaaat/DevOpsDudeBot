@@ -24,10 +24,14 @@ The dataset ('devops-reply-v2.jsonl' in the repo) has about 10k rows with column
 13:00 user3 (reply to 12:00 user1: Hello): Hi dude, how'r you doing?
 
 Only one column would be added to the dataset:
+
 {question: "Hello", answer: "Hi dude, how'r you doing?"} ✅
 
+
 instead of:
+
 {question: "Hello", answer: "I love puncakes"} ❌
+
 {question: "I love puncakes", answer: "Hi dude, how'r you doing?"} ❌
 
 It was made like that in order to reduce the amount of weird disconnected dialogues. 
