@@ -23,7 +23,7 @@ The model is based on SiberiaSoft/SiberianPersonaFred, which is a FRED-T5 (russi
 The base notebook used for fine-tuning:
 https://www.kaggle.com/code/paultimothymooney/fine-tune-flan-t5-with-peft-lora-deeplearning-ai/notebook
 
-I had to alter it a bit. Note that I only ran the cells related to PEFT fine-tuning and didn't ran anything related to the traditional fine-tuning. The altered version:
+I had to alter it a bit, as the original version was throwing errors and didn't have proper training parameters. Note that I only ran the cells related to PEFT fine-tuning and didn't ran anything related to the traditional fine-tuning. The altered version:
 https://www.kaggle.com/svyatoslavakimov/fine-tune-flan-t5-with-peft-lora-deeplearning-ai
 
 # Data
