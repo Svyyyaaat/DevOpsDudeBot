@@ -18,7 +18,7 @@ https://huggingface.co/SiberiaSoft/SiberianPersonaFred/resolve/main/model.safete
 telegram bot: @DevOpsDudeBot (probably inactive rn)
 
 # Model
-The model is based on SiberiaSoft/SiberianPersonaFred, which is a FRED-T5 (russian T5) model fine-tuned for conversations. Then I PEFT fine-tuned it on data from a DevOps' telegram chat.
+The model is based on SiberiaSoft/SiberianPersonaFred, which is a FRED-T5 (Russian T5) model fine-tuned for conversations. Then I PEFT fine-tuned it on data from a DevOps' telegram chat.
 
 The base notebook used for fine-tuning:
 https://www.kaggle.com/code/paultimothymooney/fine-tune-flan-t5-with-peft-lora-deeplearning-ai/notebook
@@ -59,4 +59,4 @@ The bot is ran with the help of the aiogram library.
 The bot can reply slowly, since the model is PEFT fine-tuned. With more resources and the given notebook it is possible to train the model the classic way, making it faster and perhaps smarter about the topic it talks about.
 
 # Why T5-based model?
-Because it's light enough to run on my computer and performs better than GPT-2 based models. If I had more resources I would choose a Llama-based model, like one of the Saigas.
+Because it's light enough to run on my computer and performs better than GPT-2 based models. If I had more resources I would choose a Llama-based model, like one of the Saigas. Not Falcon, as there's no Falcon fine-tuned for Russian language.
