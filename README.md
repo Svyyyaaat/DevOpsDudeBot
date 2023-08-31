@@ -19,9 +19,13 @@ https://www.kaggle.com/svyatoslavakimov/fine-tune-flan-t5-with-peft-lora-deeplea
 # Data
 The dataset ('devops-reply-v2.jsonl' in the repo) has about 10k rows with columns 'question' and 'answer'. The 'answer' column includes reply messages, and 'question' has the messages that have been replied to. So, for example, if there were 3 messages like that:
 
+
 12:00 user1: Hello
+
 12:30 user2: I love puncakes
+
 13:00 user3 (reply to 12:00 user1: Hello): Hi dude, how'r you doing?
+
 
 Only one column would be added to the dataset:
 
