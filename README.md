@@ -1,7 +1,10 @@
 # DevOpsDudeBot
 telegram chatbot fine-tuned on a DevOps' chat
+
 Code, model and dependencies **packed in a docker** (github doesn't let me upload such big files):
+
 https://drive.google.com/file/d/1FU0SLYkjJnynO6YaFolLeLkAOeERXW6w/view?usp=drive_link
+
 telegram bot: @DevOpsDudeBot (probably inactive rn)
 
 # Model
