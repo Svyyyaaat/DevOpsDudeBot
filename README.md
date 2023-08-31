@@ -1,9 +1,19 @@
 # DevOpsDudeBot
 telegram chatbot fine-tuned on a DevOps' chat
 
-Code, model and dependencies **packed in a docker** (github doesn't let me upload such big files):
+Code, model and dependencies **packed in a docker**
 
-https://drive.google.com/file/d/1FU0SLYkjJnynO6YaFolLeLkAOeERXW6w/view?usp=drive_link
+**please, download "model.safetensors" from this 🤗 repo:**
+
+**https://huggingface.co/SiberiaSoft/SiberianPersonaFred/tree/main**
+
+**and put it into "\models\SiberianPersona" folder**
+
+precise file:
+
+https://huggingface.co/SiberiaSoft/SiberianPersonaFred/resolve/main/model.safetensors
+
+
 
 telegram bot: @DevOpsDudeBot (probably inactive rn)
 
