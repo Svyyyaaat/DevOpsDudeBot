@@ -1,9 +1,9 @@
 # DevOpsDudeBot
 telegram chatbot fine-tuned on a DevOps' chat
 
-Code, model and dependencies **packed in a docker**
+Code, model and dependencies packed in a docker
 
-**please, download "model.safetensors" from this 🤗 repo:**
+**Please, download "model.safetensors" from this 🤗 repo:**
 
 **https://huggingface.co/SiberiaSoft/SiberianPersonaFred/tree/main**
 
